@@ -1,0 +1,15 @@
+10 12 * * * /backup/cron/daily.sh
+10 19 * * * /backup/cron/daily2.sh
+00 01 * * 1 /backup/cron/mon.sh
+00 01 * * 2 /backup/cron/tue.sh
+00 01 * * 3 /backup/cron/wed.sh
+00 01 * * 4 /backup/cron/thu.sh
+00 01 * * 5 /backup/cron/fri.sh
+00 01 * * 6 /backup/cron/sat.sh
+00 01 * * 0 /backup/cron/sun.sh
+00 03 15 * * /backup/cron/midmonth.sh
+00 03 28 * * /backup/cron/month.sh
+00 13 * * 1 /backup/cron/check.sh
+# report
+30 12 * * * /backup/cron/report1.sh
+30 19 * * * /backup/cron/report2.sh

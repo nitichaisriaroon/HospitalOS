@@ -1,0 +1,2 @@
+sudo -u postgres /hospitalos/PostgreSQL/9.5/bin/psql -x -c "select * from pg_stat_replication;"
+ps -ef |grep postgres

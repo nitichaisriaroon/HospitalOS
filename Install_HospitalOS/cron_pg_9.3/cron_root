@@ -1,0 +1,5 @@
+#30 18 * * * /backup/ftp/script/ftp_daily.sh
+#30 23 * * 5 /backup/ftp/script/ftp_weekly.sh
+# yafc
+#00 17 * * * /backup/ftp/script/db_daily.sh
+#00 19 * * 5 /backup/ftp/script/db_weekly.sh
