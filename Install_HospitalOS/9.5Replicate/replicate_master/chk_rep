@@ -1,3 +1,0 @@
-sudo -u postgres /hospitalos/PostgreSQL/9.5/bin/psql -x -c "select * from pg_stat_replication;"
-sudo -u postgres /hospitalos/PostgreSQL/9.5/bin/psql -x -c "SELECT pg_current_xlog_location()"
-ps -ef | grep sender
